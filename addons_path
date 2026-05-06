@@ -1,0 +1,12 @@
+
+btl_cad_live_may5_2026(live db)
+------------------------------
+python3.8 odoo-bin --addons-path=/home/broadtech/odoo/odoo-15.0+e.20230222/odoo/addons,/home/broadtech/project_addons/BTL_CANADA/btl_pragtech -d btl_cad_live_may5_2026  --db-filter=btl_cad_live_may5_2026 -p 7098 --limit-time-cpu=1200000 --limit-time-real=1200000
+
+
+
+btl usa:btl_usa_march_4_2026
+----------------------------------
+python3.8 odoo-bin --addons-path=/home/broadtech/odoo/odoo-15.0+e.20230222/odoo/addons,/home/broadtech/project_addons/BTL_USA/btl_pragtech -d btl_usa_march_4_2026 --db_port=5433 --db-filter=btl_usa_march_4_2026 -p 7096 --limit-time-cpu=1200000 --limit-time-real=1200000
+
+python3.8 odoo-bin --addons-path=/home/broadtech/odoo/odoo-15.0/addons,/home/broadtech/project_addons/BTL_USA/btl_pragtech -d btl_usa_march_4_2026 --db_port=5433 --db-filter=btl_usa_march_4_2026 -p 7096 --limit-time-cpu=1200000 --limit-time-real=1200000
